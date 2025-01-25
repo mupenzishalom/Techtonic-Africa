@@ -12,6 +12,13 @@
             }
             .member-container{
                 text-align: center;
+                border: 2px solid gray;
+                border-radius: 20px;
+                margin: 5px;
+            }
+            .member-container img{
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
             }
             .member-container h3{
                 font-weight: 400;
@@ -20,11 +27,19 @@
                 color: gray;
                 font-size: 14px;
             }
+            .borderless-button{
+                border: none;
+                padding: 8px 7px;
+                border-radius: 7px;
+                margin: 5px;
+            }
             .about-button{
                 background:#0831d8;color: white
             }
             .contact-button{
-                background: white;color: gray; 
+                background: white;
+                color: gray; 
+                border: 2px solid gray;
             }
         </style>
     </head>
@@ -38,8 +53,8 @@
                 </div>
     
                 <div>
-                    <button class="about-button" title="Go to About Us Page">About Us</button> 
-                    <button class="contact-button" title="Go to Contact Page">Contact</button>   
+                    <button class="borderless-button about-button" title="Go to About Us Page">About Us</button> 
+                    <button class="borderless-button contact-button" title="Go to Contact Page">Contact</button>   
                 </div><br><br>
             </div>
           
